@@ -1,0 +1,87 @@
+@media screen and (min-width: 960px)
+html [dir=ltr] {
+    margin-left: 0;
+    margin-right: calc(100% - 100vw);
+}
+:root {
+    --blue: #00688d;
+    --green: #0d7d4d;
+    --teal: #006daa;
+    --red: #ab0d02;
+    --yellow: #d6b600;
+    --white: #fff;
+    --dark-gray: #454545;
+    --primary: #00262b;
+    --secondary: #454545;
+    --brand: #d23228;
+    --success: #0d7d4d;
+    --info: #03c7e8;
+    --warning: #f0cc00;
+    --danger: #ab0d02;
+    --light: #e1dddb;
+    --dark: #00262b;
+    --gray: #707070;
+    --accent-a: #03c7e8;
+    --accent-b: #f0cc00;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Inter","Helvetica Neue",Arial,sans-serif;
+    --font-family-monospace: "Roboto Mono",SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "en-us";
+    direction: ltr;
+    unicode-bidi:isolate
+}
+ :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+head {
+    display: none;
+}
+[dir=ltr] body {
+    text-align: left;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: #fff;
+    color: #454545;
+    font-family: Inter,Helvetica Neue,Arial,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5555555556;
+    margin: 0;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    margin: 8px;
+}
